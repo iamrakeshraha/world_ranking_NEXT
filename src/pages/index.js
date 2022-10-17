@@ -5,12 +5,14 @@ import styles from '../styles/Home.module.css'
 import SearchInput from '../components/searchInput/searchInput'
 
 import 'antd/dist/antd.min.css';
+import CountriesTable from '../components/CountriesTable/CountriesTable'
 
-export default function Home( {countries}) {
-  console.log(countries)
+export default function Home({ countries }) {
+  // console.log(countries)
   return <Layout>
-    Found {countries.length} countries
-    <SearchInput/>
+    <div >Found {countries.length} countries</div>
+    <SearchInput />
+    <CountriesTable countries={countries}/>
   </Layout>
 }
 

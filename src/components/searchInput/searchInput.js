@@ -17,7 +17,8 @@ const searchInput = () => {
 
     return (
         < Search
-            placeholder="input search text"
+            style = {{width: "50%"}}
+            placeholder="Filter by Name, Region and SubRegion"
             enterButton="Search"
             size="large"
             suffix={suffix}

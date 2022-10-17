@@ -42,7 +42,7 @@ const Layout = ({ children, title = "world_rakning" }) => {
             </main>
 
             <footer className={styles.footer}>
-                world_ranking site developped by @kappa 
+                world_ranking site developped by @kappa
             </footer>
         </div>
     )
